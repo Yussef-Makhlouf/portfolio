@@ -1,0 +1,40 @@
+.hero
+{
+  height: 60vh;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  text-align: center;
+
+
+}
+.hero img{
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-top: 20px;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+
+}
+.bgText
+{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+
